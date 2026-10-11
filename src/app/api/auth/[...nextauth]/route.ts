@@ -38,16 +38,20 @@ const providers: NextAuthOptions['providers'] = [
   }),
 ];
 
-if (process.env.AUTH_GOOGLE_ID && process.env.AUTH_GOOGLE_SECRET) {
+const googleClientId = process.env.AUTH_GOOGLE_ID || process.env.GOOGLE_CLIENT_ID;
+const googleClientSecret = process.env.AUTH_GOOGLE_SECRET || process.env.GOOGLE_CLIENT_SECRET;
+
+if (googleClientId && googleClientSecret) {
   providers.push(
     GoogleProvider({
-      clientId: process.env.AUTH_GOOGLE_ID,
-      clientSecret: process.env.AUTH_GOOGLE_SECRET,
+      clientId: googleClientId,
+      clientSecret: googleClientSecret,
     })
   );
 }
 
 export const authOptions: NextAuthOptions = {
+  secret: process.env.NEXTAUTH_SECRET || process.env.AUTH_SECRET,
   providers,
   session: {
     strategy: 'jwt',
@@ -55,7 +59,7 @@ export const authOptions: NextAuthOptions = {
   callbacks: {
     async jwt({ token, user, trigger, session }) {
       // On initial sign-in, upsert the user in MongoDB
-      if (user) {
+      if (user && user.email) {
         await connectDB();
         const dbUser = await User.findOneAndUpdate(
           { email: user.email },
@@ -68,8 +72,10 @@ export const authOptions: NextAuthOptions = {
           },
           { upsert: true, new: true, setDefaultsOnInsert: true }
         );
-        token.userId = dbUser._id.toString();
-        token.role = dbUser.role;
+        if (dbUser) {
+          token.userId = dbUser._id.toString();
+          token.role = dbUser.role;
+        }
       }
 
       // On session update (after role selection), refresh role from token
@@ -90,6 +96,7 @@ export const authOptions: NextAuthOptions = {
   },
   pages: {
     signIn: '/login',
+    error: '/login',
   },
 };
 
