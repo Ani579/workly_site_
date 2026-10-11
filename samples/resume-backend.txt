@@ -1,0 +1,29 @@
+Jordan Chen
+jordan.chen@example.com | github.com/jordanchen-backend | linkedin.com/in/jordanchen-mock
+
+PROFESSIONAL SUMMARY
+Backend Software Engineer with hands-on expertise designing scalable RESTful APIs, distributed microservices, and asynchronous event pipelines using Python, Node.js, and PostgreSQL. Experienced in Docker containerization, database query tuning, and cloud infrastructure deployment.
+
+TECHNICAL SKILLS
+- Languages: Python, JavaScript, TypeScript, Go, SQL, Bash
+- Backend Frameworks: FastAPI, Node.js, Express, Django, Flask
+- Databases & Storage: PostgreSQL, MongoDB, Redis, SQLite, Prisma ORM
+- DevOps & Cloud: Docker, Kubernetes, AWS (EC2, S3, RDS), GitHub Actions CI/CD, Linux
+- Architecture & Practices: RESTful API Design, Microservices, Event-Driven Architecture, Caching Strategies, Database Indexing, Unit & Integration Testing (PyTest)
+
+PROJECT EXPERIENCE
+1. Distributed Task Queue & Notification Engine (Python, FastAPI, Redis, Docker)
+- Architected a distributed background worker system processing over 250,000 asynchronous jobs daily with Redis Streams.
+- Reduced API p99 response times from 340ms to 45ms by implementing multi-tiered caching for hot database queries.
+- Deployed multi-container environment via Docker Compose and configured automated CI/CD pipeline on GitHub Actions.
+
+2. Cloud Inventory Management API (Node.js, Express, PostgreSQL, Prisma)
+- Engineered scalable multi-tenant REST API managing 100,000+ real-time warehouse inventory records.
+- Optimized slow SQL queries with compound indexes and query refactoring, achieving a 4x throughput boost.
+- Implemented robust role-based access control (RBAC) and JWT authentication with automated token rotation.
+
+EDUCATION
+Bachelor of Science in Software Engineering
+Graduated August 2024
+Relevant Coursework: Distributed Systems, Operating Systems, Relational Database Management, Cloud Computing, Object-Oriented Design.
+

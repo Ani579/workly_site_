@@ -1,0 +1,28 @@
+Alex Rivera
+alex.rivera@example.com | github.com/alexrivera-dev | linkedin.com/in/alexrivera-mock
+
+PROFESSIONAL SUMMARY
+Motivated Frontend & Full Stack Developer with 2+ years of experience building responsive, high-performance web applications using React, TypeScript, and Next.js. Passionate about web accessibility, clean component architecture, and modern state management.
+
+TECHNICAL SKILLS
+- Languages: JavaScript (ES6+), TypeScript, HTML5, CSS3/Sass, SQL
+- Frameworks & Libraries: React, Next.js, Tailwind CSS, Redux Toolkit, Framer Motion, Jest, React Testing Library
+- Tools & Platforms: Git, GitHub, Vite, Webpack, Vercel, Docker, Figma, REST APIs, GraphQL
+- Core Competencies: Responsive Web Design, Component-Driven Development, Frontend Performance Optimization, Web Vitals, Cross-Browser Compatibility
+
+PROJECT EXPERIENCE
+1. Workly Talent Portal (Next.js, TypeScript, Tailwind CSS, Framer Motion)
+- Developed an AI-powered student career matching platform with accessible UI components and animated dashboard charts.
+- Improved Lighthouse performance and accessibility scores from 74 to 98 through dynamic imports and optimized font loading.
+- Built reusable modular component library with strict TypeScript interfaces.
+
+2. E-Commerce Storefront (React, TypeScript, Redux Toolkit, Tailwind CSS)
+- Architected an interactive e-commerce product catalog with instantaneous client-side filtering and search across 5,000+ items.
+- Integrated Stripe payment checkout flow and optimized checkout funnel, reducing cart drop-off by 18%.
+- Wrote unit and integration tests using Vitest and React Testing Library achieving 85% test coverage.
+
+EDUCATION
+Bachelor of Science in Computer Science
+Graduated May 2024
+Relevant Coursework: Data Structures & Algorithms, Web Development, Human-Computer Interaction, Database Systems.
+

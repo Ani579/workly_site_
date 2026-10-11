@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-blue: #1D4ED8;
+  --color-dark-navy: #0B1B4B;
+  --color-success-green: #16A34A;
+  --color-soft-bg: #F5F8FF;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --background: var(--color-soft-bg);
+  --foreground: var(--color-dark-navy);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}

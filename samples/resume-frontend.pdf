@@ -1,0 +1,86 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 2056 >>
+stream
+BT
+/F1 10 Tf
+14 TL
+50 750 Td
+(Alex Rivera) Tj
+T*
+(alex.rivera@example.com | github.com/alexrivera-dev | linkedin.com/in/alexrivera-mock) Tj
+T*
+T*
+(PROFESSIONAL SUMMARY) Tj
+T*
+(Motivated Frontend & Full Stack Developer with 2+ years of experience building responsive, high-performance web applications using React, TypeScript, and Next.js. Passionate about web accessibility, clean component architecture, and modern state management.) Tj
+T*
+T*
+(TECHNICAL SKILLS) Tj
+T*
+(- Languages: JavaScript \(ES6+\), TypeScript, HTML5, CSS3/Sass, SQL) Tj
+T*
+(- Frameworks & Libraries: React, Next.js, Tailwind CSS, Redux Toolkit, Framer Motion, Jest, React Testing Library) Tj
+T*
+(- Tools & Platforms: Git, GitHub, Vite, Webpack, Vercel, Docker, Figma, REST APIs, GraphQL) Tj
+T*
+(- Core Competencies: Responsive Web Design, Component-Driven Development, Frontend Performance Optimization, Web Vitals, Cross-Browser Compatibility) Tj
+T*
+T*
+(PROJECT EXPERIENCE) Tj
+T*
+(1. Workly Talent Portal \(Next.js, TypeScript, Tailwind CSS, Framer Motion\)) Tj
+T*
+(- Developed an AI-powered student career matching platform with accessible UI components and animated dashboard charts.) Tj
+T*
+(- Improved Lighthouse performance and accessibility scores from 74 to 98 through dynamic imports and optimized font loading.) Tj
+T*
+(- Built reusable modular component library with strict TypeScript interfaces.) Tj
+T*
+T*
+(2. E-Commerce Storefront \(React, TypeScript, Redux Toolkit, Tailwind CSS\)) Tj
+T*
+(- Architected an interactive e-commerce product catalog with instantaneous client-side filtering and search across 5,000+ items.) Tj
+T*
+(- Integrated Stripe payment checkout flow and optimized checkout funnel, reducing cart drop-off by 18%.) Tj
+T*
+(- Wrote unit and integration tests using Vitest and React Testing Library achieving 85% test coverage.) Tj
+T*
+T*
+(EDUCATION) Tj
+T*
+(Bachelor of Science in Computer Science) Tj
+T*
+(Graduated May 2024) Tj
+T*
+(Relevant Coursework: Data Structures & Algorithms, Web Development, Human-Computer Interaction, Database Systems.) Tj
+T*
+T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2418
+%%EOF
